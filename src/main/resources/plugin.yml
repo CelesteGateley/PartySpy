@@ -1,0 +1,16 @@
+name: PartySpy
+version: ${project.version}
+main: xyz.fluxinc.partyspy.PartySpy
+api-version: 1.13
+depend: [mcMMO]
+authors: [CelesteMagisteel]
+description: Allows staff members to spy on players
+commands:
+  partyspy:
+    description: Allows the user to toggle partyspy
+    usage: /partyspy
+    permission: mcmmopartyspy.spy
+permissions:
+  mcmmopartyspy.spy:
+    description: Allows the holder to spy on partychat
+    default: op

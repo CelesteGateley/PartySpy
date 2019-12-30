@@ -1,0 +1,4 @@
+prefix: "&7[&9SH Spy&7] &b"
+format: "&f[&6PS&f] &6[&r%display%&f -> %party%&6]&7 %message%"
+toggleOn: "Toggled Spy On"
+toggleOff: "Toggled Spy Off"
